@@ -1,0 +1,14 @@
+﻿class MainForm:
+  def new_order_mainmenu(self):
+    waitConfirm(3000)
+    # App - Instance created for Application
+    main_form = Aliases.MainForm
+    
+    # clicking Orders > New Order... option from the Main Menu
+    main_form.MainMenu.Click("Orders|New order...")
+    #Aliases.MainForm.MainMenu.Click("Orders|New order...")
+    order_form = Aliases.OrderForm
+    
+    return order_form
+    
+    

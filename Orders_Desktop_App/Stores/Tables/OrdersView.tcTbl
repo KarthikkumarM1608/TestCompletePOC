@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="OrdersView">
+		<Source Object="Aliases.MainForm.OrdersView" />
+		<Columns>
+			<Column IsKey="True">Customer Name</Column>
+			<Column>Product</Column>
+			<Column>Quantity</Column>
+			<Column>Street</Column>
+			<Column>City</Column>
+			<Column>State</Column>
+			<Column>Zip</Column>
+			<Column>Card</Column>
+			<Column>Card No</Column>
+			<Column>Expiration Date</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">St.Peter</Cell>
+				<Cell Type="String">FamilyAlbum</Cell>
+				<Cell Type="String">50</Cell>
+				<Cell Type="String">123street</Cell>
+				<Cell Type="String">Orlando</Cell>
+				<Cell Type="String">FL</Cell>
+				<Cell Type="String">31223</Cell>
+				<Cell Type="String">Visa</Cell>
+				<Cell Type="String">12343321212</Cell>
+				<Cell Type="String">13-12-2027</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

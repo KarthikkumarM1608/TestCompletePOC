@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Utils">
+			<child name="AppHandler" key="{0D45F9B2-5868-4759-A021-3F3BAF957E80}" path="AppHandler.py" />
+			<child name="MainScreen" key="{C17690FB-4EF1-4287-BD5F-4632BF4CF310}" path="MainScreen.py" />
+			<child name="OrderCreation" key="{A83D2C5A-20AF-4921-9BF8-16E45045B145}" path="OrderCreation.py" />
+		</folder>
+		<folder name="Tests">
+			<child name="TestOrdersCreation" key="{2017B3A2-A1A7-4C2F-AA13-AAE4199CA67B}" path="TestOrdersCreation.py" />
+			<child name="TestRunner" key="{562BB93B-7B29-437B-9618-780AAC860C54}" path="TestRunner.py" />
+			<child name="TestOpenOrders" key="{FCB0E058-0AF4-419A-819B-28E2E56603EA}" path="TestOpenOrders.py" />
+		</folder>
+		<child name="EventHandlers" key="{36B3D634-188F-4D1E-B789-9B9C77135D75}" path="EventHandlers.py" />
+	</children>
+</Root>

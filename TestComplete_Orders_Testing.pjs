@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{C9FA8392-D04D-4BB2-A854-22A72EFE02D5}">
+	<children>
+		<child name="Orders_Desktop_App" key="{0327C7FB-D688-4AFB-9462-68789EA5BE5A}" path="Orders_Desktop_App\Orders_Desktop_App.mds" />
+	</children>
+	<testItems key="{D9D4F43E-C6E8-40E3-96DA-F37BB1791B4D}">
+		<children>
+			<testItem key="{0327C7FB-D688-4AFB-9462-68789EA5BE5A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{42546BC2-DD7C-4FD3-99D3-1736C6170490}" />
+	<analysis key="{D48F4ACF-3DA4-4C9A-9F1C-AEF2A161A097}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

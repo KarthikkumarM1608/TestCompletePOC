@@ -1,0 +1,2 @@
+﻿def AppEvents_OnStartTestCase(Sender, StartTestCaseParams):
+  TestedApps.Orders.Run()
