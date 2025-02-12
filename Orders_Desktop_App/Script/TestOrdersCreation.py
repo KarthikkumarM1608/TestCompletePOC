@@ -5,16 +5,6 @@ import AppHandler
 def test_one_create_orders_mainmenu():
   # Data Driven Testing Approach - Create New orders in the Application Main menu Orders > New Orders... based on the supplied csv file
   
-  # TS - Instance created for ApplicationManager class
-  #app_manager = AppHandler.ApplicationManager()
-    
-    # Force close any running instances at the start
-  #app_manager.force_shutdown()  
-
-  # Opening the Application
-  #app_manager.open_application()
-
-   
   # Reading the CSV file path from Variables  
   DDT.CSVDriver(Project.Variables.csv_file_path)
   
@@ -51,5 +41,3 @@ def test_one_create_orders_mainmenu():
     # Incrementing the Data-driven test to next set,
     DDT.CurrentDriver.Next()
   
-  # Closing the Application
-  #app_manager.close_application()

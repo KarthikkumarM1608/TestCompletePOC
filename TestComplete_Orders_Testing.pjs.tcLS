@@ -26,6 +26,9 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{0327C7FB-D688-4AFB-9462-68789EA5BE5A}"/>
 			</Node>
+			<Node name="{32e46931-bead-40d6-91d0-00682edbd154}">
+				<Prp name="relpath" type="S" value="Web_Practice\Web_Practice.mds.tcLS"/>
+			</Node>
 			<Node name="logs">
 				<Prp name="key" type="S" value="{76339DF3-7802-4BC4-BEBB-983CF862EFB4}"/>
 				<Prp name="relpath" type="S" value="Log"/>

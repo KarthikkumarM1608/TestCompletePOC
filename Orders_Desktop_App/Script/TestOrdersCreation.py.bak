@@ -40,7 +40,7 @@ def test_one_create_orders_mainmenu():
     create.order_creation(data)
   
     # clicking OK button in the Order Creation pop-up
-    order_form.ButtonOK1.ClickButton()
+    order_form.ButtonOK.ClickButton()
     
     date_format_warning = Aliases.DatedlgWarning
     if date_format_warning.Exists:

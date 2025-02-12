@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{79E0B7F8-430D-4697-8E0B-96A6006E0CA2}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{71D0D4B3-6935-48C5-8B69-A39F86FC601E}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{3C7EFB9D-49D3-4FB6-ABE5-B135C73A549E}">
+								<Image FileName="-1823038033" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="PracticeWebsite" Key="{A6DCED83-BA84-473A-8C7A-FEAB3635086A}">
+								<Image FileName="-1823038033" Left="6" Top="162" Right="1914" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://practice.expandtesting.com/inputs" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Numberfield" Key="{A636536F-A793-4322-9F1F-C531F79D5042}">
+										<Image FileName="-1823038033" Left="116" Top="439" Right="647" Bottom="499" />
+										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Number&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#input-number" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;input-number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//main//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Textfield" Key="{6A90A351-9CCC-4DC6-AD1A-40E81AB862F0}">
+										<Image FileName="-1975361434" Left="116" Top="547" Right="647" Bottom="607" />
+										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Text&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#input-text" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;input-text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Passwordfield" Key="{B53C3070-DD13-4079-BDBD-6BB63A173E97}">
+										<Image FileName="242697884" Left="116" Top="655" Right="647" Bottom="715" />
+										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#input-password" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;input-password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[3]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DatePicker" Key="{A40E5922-494E-4AAD-BA74-3B565280547F}">
+										<Image FileName="2071305092" Left="116" Top="763" Right="647" Bottom="823" />
+										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Date&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#input-date" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;input-date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//main//div[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DisplayInputsButton" Key="{1E5E3EFC-88DB-446F-BFC4-96E4A98C7A43}">
+										<Image FileName="970090054" Left="116" Top="323" Right="303" Bottom="379" />
+										<TypeInfo Item0="{04CEBFAB-7EC6-42A0-BF9D-4CC645E2642A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="css=#btn-display-inputs" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[.=&apos;Display Inputs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[contains(@class, &apos;btn-outline-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{71D0D4B3-6935-48C5-8B69-A39F86FC601E}">
+			<Child Name="BrowserWindow" Owner="{3C7EFB9D-49D3-4FB6-ABE5-B135C73A549E}" />
+			<Child Name="PracticeWebsite" Owner="{A6DCED83-BA84-473A-8C7A-FEAB3635086A}">
+				<Child Name="Numberfield" Owner="{A636536F-A793-4322-9F1F-C531F79D5042}" />
+				<Child Name="Textfield" Owner="{6A90A351-9CCC-4DC6-AD1A-40E81AB862F0}" />
+				<Child Name="Passwordfield" Owner="{B53C3070-DD13-4079-BDBD-6BB63A173E97}" />
+				<Child Name="DatePicker" Owner="{A40E5922-494E-4AAD-BA74-3B565280547F}" />
+				<Child Name="DisplayInputsButton" Owner="{1E5E3EFC-88DB-446F-BFC4-96E4A98C7A43}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
