@@ -1,0 +1,15 @@
+# Ignore all files with a .log extension
+*.log
+
+# Ignore the build directory
+build/
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore sensitive files
+.env
