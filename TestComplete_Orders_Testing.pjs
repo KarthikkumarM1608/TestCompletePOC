@@ -3,11 +3,13 @@
 	<children>
 		<child name="Orders_Desktop_App" key="{0327C7FB-D688-4AFB-9462-68789EA5BE5A}" path="Orders_Desktop_App\Orders_Desktop_App.mds" />
 		<child name="Web_Practice" key="{32E46931-BEAD-40D6-91D0-00682EDBD154}" path="Web_Practice\Web_Practice.mds" />
+		<child name="Practice" key="{4E8436E3-44C1-498A-B9AC-93F0367DB405}" path="Practice\Practice.mds" />
 	</children>
 	<testItems key="{D9D4F43E-C6E8-40E3-96DA-F37BB1791B4D}">
 		<children>
 			<testItem key="{0327C7FB-D688-4AFB-9462-68789EA5BE5A}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{32E46931-BEAD-40D6-91D0-00682EDBD154}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{4E8436E3-44C1-498A-B9AC-93F0367DB405}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{42546BC2-DD7C-4FD3-99D3-1736C6170490}" />

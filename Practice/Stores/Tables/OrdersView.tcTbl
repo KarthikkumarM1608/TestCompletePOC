@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="OrdersView">
+		<Source Object="Aliases.Orders.MainForm.OrdersView" />
+		<Columns>
+			<Column IsKey="True">Customer Name</Column>
+			<Column>Product</Column>
+			<Column>Quantity</Column>
+			<Column>Date</Column>
+			<Column>Street</Column>
+			<Column>City</Column>
+			<Column>State</Column>
+			<Column>Zip</Column>
+			<Column>Card</Column>
+			<Column>Card No</Column>
+			<Column>Expiration Date</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">John Smith Jr</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">05-07-2009</Cell>
+				<Cell Type="String">12, Orange Blvd</Cell>
+				<Cell Type="String">Grovetown, CA</Cell>
+				<Cell Type="String">US</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">VISA</Cell>
+				<Cell Type="String">555777555777</Cell>
+				<Cell Type="String">09-12-2013</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Clare Jefferson</Cell>
+				<Cell Type="String">FamilyAlbum</Cell>
+				<Cell Type="String">2</Cell>
+				<Cell Type="String">04-05-2009</Cell>
+				<Cell Type="String">23, Owk Street</Cell>
+				<Cell Type="String">Greentown, CA</Cell>
+				<Cell Type="String">US</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">770000770000</Cell>
+				<Cell Type="String">03-03-2012</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Susan McLaren</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">05-12-2008</Cell>
+				<Cell Type="String">7, Flower Street </Cell>
+				<Cell Type="String">Earlcastle</Cell>
+				<Cell Type="String">Great Britain</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">999888777888</Cell>
+				<Cell Type="String">04-04-2013</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Charles Dodgeson</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">05-12-2009</Cell>
+				<Cell Type="String">45, Stone st.</Cell>
+				<Cell Type="String">Bringtone, TX</Cell>
+				<Cell Type="String">US</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">American Express</Cell>
+				<Cell Type="String">333222333222</Cell>
+				<Cell Type="String">07-11-2013</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Steve Johns</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">04-04-2008</Cell>
+				<Cell Type="String">17, Park Avenue</Cell>
+				<Cell Type="String">Salmon Island</Cell>
+				<Cell Type="String">Canada</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">444555444555</Cell>
+				<Cell Type="String">03-03-2011</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Samuel Clemens</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">2</Cell>
+				<Cell Type="String">12-12-2009</Cell>
+				<Cell Type="String">3, Garden st.</Cell>
+				<Cell Type="String">Hillsberry, UT</Cell>
+				<Cell Type="String">US</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">123456789012</Cell>
+				<Cell Type="String">03-02-2012</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Bob Feather</Cell>
+				<Cell Type="String">FamilyAlbum</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">12-03-2010</Cell>
+				<Cell Type="String">14, North av.</Cell>
+				<Cell Type="String">Milltown, WI</Cell>
+				<Cell Type="String">US</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">American Express</Cell>
+				<Cell Type="String">111222111222</Cell>
+				<Cell Type="String">06-12-2014</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Mark Smith</Cell>
+				<Cell Type="String">FamilyAlbum</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">02-02-2010</Cell>
+				<Cell Type="String">9, Maple Valley</Cell>
+				<Cell Type="String">Whitestone, British Columbia</Cell>
+				<Cell Type="String">Canada</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">VISA</Cell>
+				<Cell Type="String">77007700770</Cell>
+				<Cell Type="String">01-05-2014</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

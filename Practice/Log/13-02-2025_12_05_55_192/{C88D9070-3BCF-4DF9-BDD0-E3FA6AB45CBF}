@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="45701.5052409607"/>
+				<Prp name="end time" type="D" value="45701.5052409607"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="name" type="S" value="Open Orders [Script\TestOpenExistingOrders - test_one_open_existing_orders]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{099710F5-D6C2-4C05-908B-A4936F1E75AF}"/>
+				<Prp name="start time" type="D" value="45701.5041179977"/>
+				<Prp name="end time" type="D" value="45701.5042234028"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="name" type="S" value="Create New Orders [Script\TestCreateNewOrders - test_one_create_orders]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{44B80757-0282-4A18-BF0C-B60BB1E4F9BD}"/>
+				<Prp name="start time" type="D" value="45701.5042235185"/>
+				<Prp name="end time" type="D" value="45701.5052409607"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

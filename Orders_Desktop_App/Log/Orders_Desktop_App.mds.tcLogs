@@ -23,24 +23,6 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45701.4003130787"/>
-				<Prp name="description" type="S" value="Orders_Desktop_App"/>
-				<Prp name="key" type="S" value="{C8053126-DA40-45B0-97A6-5137614128E0}"/>
-				<Prp name="nameofroot" type="S" value="Orders_Desktop_App"/>
-				<Prp name="relpath" type="S" value="13-02-2025_09_36_27_50\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45701.4022135532"/>
-				<Prp name="description" type="S" value="Orders_Desktop_App"/>
-				<Prp name="key" type="S" value="{7823B7A9-8DC5-4A06-9EC3-EA7A02639CAF}"/>
-				<Prp name="nameofroot" type="S" value="Orders_Desktop_App"/>
-				<Prp name="relpath" type="S" value="13-02-2025_09_39_11_251\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="45701.4045774537"/>
 				<Prp name="description" type="S" value=""/>
 				<Prp name="key" type="S" value="{97E98925-666C-4F7A-A4E4-54A9EB4A9FB6}"/>
@@ -48,7 +30,7 @@
 				<Prp name="relpath" type="S" value="13-02-2025_09_42_35_492\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
-			<Node name="log idx=0003">
+			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="45701.4084422569"/>
 				<Prp name="description" type="S" value=""/>
@@ -57,7 +39,7 @@
 				<Prp name="relpath" type="S" value="13-02-2025_09_48_09_411\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
-			<Node name="log idx=0004">
+			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="45701.4107920833"/>
 				<Prp name="description" type="S" value=""/>
@@ -66,7 +48,7 @@
 				<Prp name="relpath" type="S" value="13-02-2025_09_51_32_436\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
-			<Node name="log idx=0005">
+			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="45701.4111375"/>
 				<Prp name="description" type="S" value=""/>
@@ -75,7 +57,7 @@
 				<Prp name="relpath" type="S" value="13-02-2025_09_52_02_280\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
-			<Node name="log idx=0006">
+			<Node name="log idx=0004">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="45701.4130365741"/>
 				<Prp name="description" type="S" value=""/>
@@ -83,6 +65,24 @@
 				<Prp name="nameofroot" type="S" value="Orders_Desktop_App"/>
 				<Prp name="relpath" type="S" value="13-02-2025_09_54_46_360\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45701.4809219792"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EFEA11B9-7053-441C-948E-3FB51A24AF40}"/>
+				<Prp name="nameofroot" type="S" value="Orders_Desktop_App"/>
+				<Prp name="relpath" type="S" value="13-02-2025_11_32_31_659\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45701.4831992593"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{23878BF0-C8D0-44FB-8687-AF920520E9F1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestOpenOrders\test_one_open_existing_orders]"/>
+				<Prp name="relpath" type="S" value="13-02-2025_11_35_48_416\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

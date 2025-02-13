@@ -7,7 +7,7 @@ def OrdersAppEvents_OnStartTestCase(Sender, StartTestCaseParams):
         app_manager = AppHandler.ApplicationManager()
         
         # Force close any running instances to start fresh
-        #if Aliases.Orders.Exists:
+        #if Aliases.Orders
         app_manager.force_shutdown()
         
         # Launch the application

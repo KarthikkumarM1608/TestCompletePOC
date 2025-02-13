@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{1440A73D-15B6-40FF-B82B-C47C9B22D8A8}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{9C23087B-F101-4006-BEE4-CA75A9883E43}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Users\karthikkumar.m\OneDrive - MKS VISION PVT LTD\Desktop\Application working folder" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\karthikkumar.m\OneDrive - MKS VISION PVT LTD\Desktop\Application working folder" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\karthikkumar.m\OneDrive - MKS VISION PVT LTD\Desktop\Application working folder" />
+					<param name="Simple" fileName="Orders.exe" filePath="C:\Users\Public\Documents\TestComplete 15 Samples\Desktop\Orders\C#\bin\Release\" parameters="" workFolder="C:\Users\karthikkumar.m\OneDrive - MKS VISION PVT LTD\Desktop\Application working folder" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

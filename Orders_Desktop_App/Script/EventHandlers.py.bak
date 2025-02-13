@@ -14,7 +14,7 @@ def OrdersAppEvents_OnStartTestCase(Sender, StartTestCaseParams):
         app_manager.open_application()
         Log.Message("Application launched successfully.")
     except Exception as e:
-        Log.Error(f"Failed to launch application at start of test case: {str(e)}")
+        Log.Warning(f"Failed to launch application at start of test case: {str(e)}")
         #raise
 
 def OrdersAppEvents_OnStopTestCase(Sender, StopTestCaseParams):
