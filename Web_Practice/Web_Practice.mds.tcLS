@@ -27,7 +27,10 @@
 			<Node name="variables">
 				<Node name="datav4">
 					<Node name="var0">
-						<Prp name="name" type="S" value="Password2"/>
+						<Prp name="name" type="S" value="Password"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="Username"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>

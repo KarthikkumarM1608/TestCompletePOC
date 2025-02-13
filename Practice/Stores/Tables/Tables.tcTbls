@@ -2,5 +2,9 @@
 <Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="15.0">
 	<children>
 		<child name="OrdersView" key="{4D94D64D-92C7-4636-97D0-5BA8F0F4C747}" path="OrdersView.tcTbl" />
+		<child name="OrdersViewLargeIcons" key="{03A769DF-1991-4E3B-833F-27985B8FD1AB}" path="OrdersViewLargeIcons.tcTbl" />
+		<child name="OrdersViewSmallIcons" key="{37F183A6-A03C-46B9-B7EF-8486D3739D95}" path="OrdersViewSmallIcons.tcTbl" />
+		<child name="OrdersViewList" key="{74C8219D-B23E-4457-94DB-7D34C9E28B4D}" path="OrdersViewList.tcTbl" />
+		<child name="OrdersView_gridrow" key="{D66F515B-61AF-4CD3-B198-2BC1ACF7E02B}" path="OrdersView_gridrow.tcTbl" />
 	</children>
 </Root>

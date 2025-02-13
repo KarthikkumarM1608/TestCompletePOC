@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6B0045AF-43A5-4D47-90C8-66840189B0F1}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45701.3588541667" objectName="Aliases.Orders.MainForm.ToolBar" objectLeft="4" objectTop="69" objectRight="1924" objectBottom="111" clickPointX="63" clickPointY="82" imageFileName="tcvi274423390245602.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45701.358900463" objectName="Aliases.OpenDialog" objectLeft="204" objectTop="331" objectRight="440" objectBottom="350" clickPointX="272" clickPointY="552" imageFileName="tcvi274427421245608.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45701.3589699074" objectName="Aliases.Orders.MainForm.OrdersView" objectLeft="4" objectTop="111" objectRight="1924" objectBottom="980" clickPointX="75" clickPointY="244" imageFileName="tcvi2744332032456011.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

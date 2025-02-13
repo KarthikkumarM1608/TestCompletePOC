@@ -1,14 +1,49 @@
-﻿def Test1():
-  Browsers.Item[btEdge].Navigate("https://practice.expandtesting.com/inputs")
+﻿def test_orders():
+  Browsers.Item[btEdge].Navigate("https://www.saucedemo.com/v1/index.html")
   browser = Aliases.browser
   browser.BrowserWindow.Maximize()
-  page = browser.pageWebInputsPageForAutomationTe
-  numberInput = page.Numberfield
-  numberInput.SetText("12345")
-  textbox = page.Textfield
-  textbox.SetText("Test")
-  passwordBox = page.Passwordfield
-  passwordBox.SetText(Project.Variables.Password2)
-  dateInput = page.DatePicker
-  dateInput.Keys("12022025")
-  page.DisplayInputsButton.ClickButton()
+  page = browser.LoginPage
+  textbox = page.UserName
+  textbox.SetText(Project.Variables.Username)
+  passwordBox = page.Password
+  passwordBox.SetText(Project.Variables.Password)
+  page.LoginButton.ClickButton()
+  
+  page = browser.ProductsPage
+  page.Wait()
+  
+  products = page.findElements("//div[@class='inventory_item_name']")
+  #Log.Message(f"Number of products found: {len(products)}")
+  
+  for product in products:
+    
+    if product.innerText == "Sauce Labs Bike Light":
+      product.findElement("../../../div[3]/button").ClickButton()
+      break
+    
+    page.CartIcon.Click()
+      
+    page = browser.ShoppingCartPage
+    page.Wait()
+    
+    page.linkCheckout.Click()
+    
+    page = browser.CheckOutOne
+    page.Wait()
+    
+    textbox = page.textboxFirstName
+    textbox.SetText("Test")
+    textbox = page.textboxLastName
+    textbox.SetText("Zebra")
+    textbox = page.textboxPostalCode
+    textbox.SetText("21117")
+    page.submitbuttonContinue.ClickButton()
+    
+    page = browser.CheckOutTwo
+    page.Wait()
+    page.linkFinish.Click()
+    
+    page = browser.OrderConfirmationPage
+    page.Wait()
+    aqObject.CheckProperty(Aliases.browser.OrderConfirmationPage.FindElement("//h2[.='THANK YOU FOR YOUR ORDER']"), "contentText", cmpEqual, "THANK YOU FOR YOUR ORDER")
+    

@@ -30,101 +30,278 @@
 									</Property>
 								</Properties>
 							</Child>
-							<Child Name="PracticeWebsite" Key="{A6DCED83-BA84-473A-8C7A-FEAB3635086A}">
-								<Image FileName="-1823038033" Left="6" Top="162" Right="1914" Bottom="1002" />
+							<Child Name="OrderConfirmationPage" Key="{75DF3C3A-563C-4360-B327-5F762A532E31}">
+								<Image FileName="-1681654187" Left="17" Top="173" Right="1925" Bottom="1013" />
+								<TypeInfo Item0="{543C67D8-4DA7-49EB-8F38-104DF673DCA7}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://practice.expandtesting.com/inputs" />
+										<Value Value="https://www.saucedemo.com/v1/checkout-complete.html" />
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="Numberfield" Key="{A636536F-A793-4322-9F1F-C531F79D5042}">
-										<Image FileName="-1823038033" Left="116" Top="439" Right="647" Bottom="499" />
-										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+									<Child Name="textnodeThankYouForYourOrder" Key="{3268F9CA-4EB9-4038-9CCA-00A729209FBF}">
+										<Image FileName="-1681654187" Left="40" Top="409" Right="1880" Bottom="447" />
+										<TypeInfo Item0="{EAE69EE5-3A93-41B3-9CEA-D319F70E5D77}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Number&apos;]/@for)]" />
+												<Value Value="//h2[.=&apos;THANK YOU FOR YOUR ORDER&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="css=#input-number" />
+												<Value Value="//h2[contains(@class, &apos;complete-header&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//input[@name=&apos;input-number&apos;]" />
+												<Value Value="//div[@id=&apos;checkout_complete_container&apos;]/h2" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//main//div//input" />
+												<Value Value="//h2" />
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="Textfield" Key="{6A90A351-9CCC-4DC6-AD1A-40E81AB862F0}">
-										<Image FileName="-1975361434" Left="116" Top="547" Right="647" Bottom="607" />
+								</Children>
+							</Child>
+							<Child Name="LoginPage" Key="{AFA19AEB-D270-4FBF-8546-E9C5266891C3}">
+								<Image FileName="558843245" Left="6" Top="162" Right="1914" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/v1/index.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="UserName" Key="{DE37211C-6555-4737-81EB-2A978A607BF8}">
+										<Image FileName="558843245" Left="409" Top="413" Right="927" Bottom="475" />
 										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Text&apos;]/@for)]" />
+												<Value Value="[data-test=&apos;username&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="css=#input-text" />
+												<Value Value="#user-name" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//input[@name=&apos;input-text&apos;]" />
+												<Value Value="//input[@name=&apos;user-name&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//div[2]/div/input" />
+												<Value Value="//input[@type=&apos;text&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="Passwordfield" Key="{B53C3070-DD13-4079-BDBD-6BB63A173E97}">
-										<Image FileName="242697884" Left="116" Top="655" Right="647" Bottom="715" />
+									<Child Name="Password" Key="{DAEB0C67-7B3F-4C49-9493-FD8D18F07A41}">
+										<Image FileName="-1148616316" Left="409" Top="512" Right="927" Bottom="574" />
 										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Password&apos;]/@for)]" />
+												<Value Value="[data-test=&apos;password&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="css=#input-password" />
+												<Value Value="#password" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//input[@name=&apos;input-password&apos;]" />
+												<Value Value="//input[@name=&apos;password&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//div[3]/div/input" />
+												<Value Value="//input[@type=&apos;password&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="DatePicker" Key="{A40E5922-494E-4AAD-BA74-3B565280547F}">
-										<Image FileName="2071305092" Left="116" Top="763" Right="647" Bottom="823" />
-										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+									<Child Name="LoginButton" Key="{F63075D1-9FB1-4D3B-B8D4-D306C9558D47}">
+										<Image FileName="-595361527" Left="154" Top="533" Right="292" Bottom="599" />
+										<TypeInfo Item0="{1F7578D5-0222-41D3-9655-ED983CCE1D86}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//input[@id=(//label[.=&apos;Input: Date&apos;]/@for)]" />
+												<Value Value="#login-button" />
 											</Selector>
 											<Selector>
-												<Value Value="css=#input-date" />
+												<Value Value="//input[@value=&apos;LOGIN&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//input[@name=&apos;input-date&apos;]" />
+												<Value Value="//input[@type=&apos;submit&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//main//div[4]//input" />
+												<Value Value="//input[contains(@class, &apos;btn_action&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="DisplayInputsButton" Key="{1E5E3EFC-88DB-446F-BFC4-96E4A98C7A43}">
-										<Image FileName="970090054" Left="116" Top="323" Right="303" Bottom="379" />
+								</Children>
+							</Child>
+							<Child Name="ProductsPage" Key="{6FEC8DAA-13A1-41FF-B15A-B641811CF07B}">
+								<Image FileName="558843245" Left="6" Top="162" Right="1914" Bottom="1002" />
+								<TypeInfo Item0="{EC0DF645-D2BF-468C-9250-F3C7CA21032D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/v1/inventory.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonAddToCart" Key="{E992CB3C-6D05-4094-800A-D2ED692B2369}">
+										<Image FileName="1025870851" Left="1487" Top="617" Right="1708" Bottom="683" />
 										<TypeInfo Item0="{04CEBFAB-7EC6-42A0-BF9D-4CC645E2642A}" />
 										<Selectors>
 											<Selector>
-												<Value Value="css=#btn-display-inputs" />
+												<Value Value="//div[2]/div/button[contains(@class, &apos;btn_primary&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//button[.=&apos;Display Inputs&apos;]" />
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[2]/div/button" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//button[contains(@class, &apos;btn-outline-primary&apos;)]" />
+												<Value Value="//div[@id=&apos;contents_wrapper&apos;]//div/div/div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link1" Key="{9AD833C8-C6E1-488D-8DCF-F3AC23A0F908}">
+										<Image FileName="-385562317" Left="1805" Top="209" Right="1831" Bottom="230" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;shopping_cart_link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopping_cart_container&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;contents_wrapper&apos;]/div[@id=&apos;header_container&apos;]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="CartIcon" Key="{18859866-6E1E-406B-AEAA-EF426B7C5234}">
+										<Image FileName="-385562317" Left="1805" Top="199" Right="1850" Bottom="239" />
+										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;cart.html&apos;)]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ShoppingCartPage" Key="{1856B2E0-774D-41F2-AB89-5630C25F0ACD}">
+								<Image FileName="558843245" Left="6" Top="162" Right="1914" Bottom="1002" />
+								<TypeInfo Item0="{EC0DF645-D2BF-468C-9250-F3C7CA21032D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/v1/cart.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkCheckout" Key="{8F956727-9072-4482-98F8-5D40FDEBCC4C}">
+										<Image FileName="697238604" Left="1684" Top="818" Right="1868" Bottom="884" />
+										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;CHECKOUT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn_action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="CheckOutOne" Key="{40EDEB1F-1F98-4126-A7A3-6D00C80F7539}">
+								<Image FileName="558843245" Left="6" Top="162" Right="1914" Bottom="1002" />
+								<TypeInfo Item0="{EC0DF645-D2BF-468C-9250-F3C7CA21032D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/v1/checkout-step-one.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxFirstName" Key="{458AEF7F-F641-4563-8CCD-CF8ED613EAB6}">
+										<Image FileName="-1507000750" Left="664" Top="462" Right="1234" Bottom="524" />
+										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;firstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#first-name" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastName" Key="{6EEDDA6B-9FCB-4994-9EF9-1C06A132B942}">
+										<Image FileName="1415149647" Left="664" Top="562" Right="1234" Bottom="624" />
+										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;lastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#last-name" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPostalCode" Key="{044CD1BA-9F8A-4988-8B55-2C2807F8943B}">
+										<Image FileName="-430965550" Left="664" Top="661" Right="1234" Bottom="723" />
+										<TypeInfo Item0="{46BBD242-7841-4F63-85F4-50BD78038E40}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;postalCode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#postal-code" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonContinue" Key="{D766ED96-8CA0-4494-9EA1-CD845F43CD7F}">
+										<Image FileName="513426316" Left="1189" Top="869" Right="1376" Bottom="935" />
+										<TypeInfo Item0="{04CEBFAB-7EC6-42A0-BF9D-4CC645E2642A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;CONTINUE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;btn_primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout_info_container&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="CheckOutTwo" Key="{CF31364D-7414-4AC6-BA15-8EE9AF8FF259}">
+								<Image FileName="558843245" Left="6" Top="162" Right="1914" Bottom="1002" />
+								<TypeInfo Item0="{EC0DF645-D2BF-468C-9250-F3C7CA21032D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/v1/checkout-step-two.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkFinish" Key="{D3BBE6FD-46BB-4457-980D-57D40E560253}">
+										<Image FileName="1627885023" Left="1731" Top="762" Right="1869" Bottom="828" />
+										<TypeInfo Item0="{DC5C6DA8-6B34-44A7-8CFC-EC709ADB751C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;FINISH&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn_action&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -139,12 +316,30 @@
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{71D0D4B3-6935-48C5-8B69-A39F86FC601E}">
 			<Child Name="BrowserWindow" Owner="{3C7EFB9D-49D3-4FB6-ABE5-B135C73A549E}" />
-			<Child Name="PracticeWebsite" Owner="{A6DCED83-BA84-473A-8C7A-FEAB3635086A}">
-				<Child Name="Numberfield" Owner="{A636536F-A793-4322-9F1F-C531F79D5042}" />
-				<Child Name="Textfield" Owner="{6A90A351-9CCC-4DC6-AD1A-40E81AB862F0}" />
-				<Child Name="Passwordfield" Owner="{B53C3070-DD13-4079-BDBD-6BB63A173E97}" />
-				<Child Name="DatePicker" Owner="{A40E5922-494E-4AAD-BA74-3B565280547F}" />
-				<Child Name="DisplayInputsButton" Owner="{1E5E3EFC-88DB-446F-BFC4-96E4A98C7A43}" />
+			<Child Name="OrderConfirmationPage" Owner="{75DF3C3A-563C-4360-B327-5F762A532E31}">
+				<Child Name="textnodeThankYouForYourOrder" Owner="{3268F9CA-4EB9-4038-9CCA-00A729209FBF}" />
+			</Child>
+			<Child Name="LoginPage" Owner="{AFA19AEB-D270-4FBF-8546-E9C5266891C3}">
+				<Child Name="UserName" Owner="{DE37211C-6555-4737-81EB-2A978A607BF8}" />
+				<Child Name="Password" Owner="{DAEB0C67-7B3F-4C49-9493-FD8D18F07A41}" />
+				<Child Name="LoginButton" Owner="{F63075D1-9FB1-4D3B-B8D4-D306C9558D47}" />
+			</Child>
+			<Child Name="ProductsPage" Owner="{6FEC8DAA-13A1-41FF-B15A-B641811CF07B}">
+				<Child Name="buttonAddToCart" Owner="{E992CB3C-6D05-4094-800A-D2ED692B2369}" />
+				<Child Name="link1" Owner="{9AD833C8-C6E1-488D-8DCF-F3AC23A0F908}" />
+				<Child Name="CartIcon" Owner="{18859866-6E1E-406B-AEAA-EF426B7C5234}" />
+			</Child>
+			<Child Name="ShoppingCartPage" Owner="{1856B2E0-774D-41F2-AB89-5630C25F0ACD}">
+				<Child Name="linkCheckout" Owner="{8F956727-9072-4482-98F8-5D40FDEBCC4C}" />
+			</Child>
+			<Child Name="CheckOutOne" Owner="{40EDEB1F-1F98-4126-A7A3-6D00C80F7539}">
+				<Child Name="textboxFirstName" Owner="{458AEF7F-F641-4563-8CCD-CF8ED613EAB6}" />
+				<Child Name="textboxLastName" Owner="{6EEDDA6B-9FCB-4994-9EF9-1C06A132B942}" />
+				<Child Name="textboxPostalCode" Owner="{044CD1BA-9F8A-4988-8B55-2C2807F8943B}" />
+				<Child Name="submitbuttonContinue" Owner="{D766ED96-8CA0-4494-9EA1-CD845F43CD7F}" />
+			</Child>
+			<Child Name="CheckOutTwo" Owner="{CF31364D-7414-4AC6-BA15-8EE9AF8FF259}">
+				<Child Name="linkFinish" Owner="{D3BBE6FD-46BB-4457-980D-57D40E560253}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

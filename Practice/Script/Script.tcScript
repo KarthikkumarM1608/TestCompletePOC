@@ -8,6 +8,8 @@
 		<folder name="Tests">
 			<child name="TestOpenExistingOrders" key="{5975EF93-1A71-4D51-852C-878C33AEDCD5}" path="TestOpenExistingOrders.py" />
 			<child name="TestCreateNewOrders" key="{10EE95F8-96B0-459D-B73C-F278C9E1E14A}" path="TestCreateNewOrders.py" />
+			<child name="TestViewOptions" key="{FAE36B6A-E075-4180-9B44-BB558729808F}" path="TestViewOptions.py" />
+			<child name="sampleGridcheck" key="{6B0045AF-43A5-4D47-90C8-66840189B0F1}" path="sampleGridcheck.py" />
 		</folder>
 		<folder name="POM">
 			<child name="MainScreen" key="{371CD310-1878-4F38-8CF5-76D2E8A8577D}" path="MainScreen.py" />

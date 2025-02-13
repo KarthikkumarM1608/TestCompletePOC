@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="OrdersViewList">
+		<Source Object="Aliases.Orders.MainForm.OrdersView" />
+		<Columns>
+			<Column>Customer Name</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">John Smith Jr</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Clare Jefferson</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Susan McLaren</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Charles Dodgeson</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Steve Johns</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Samuel Clemens</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Bob Feather</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Mark Smith</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

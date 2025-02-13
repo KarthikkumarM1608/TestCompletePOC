@@ -14,4 +14,4 @@
   def click_main_menu_new_order(self):
     mainform = Aliases.Orders.MainForm
     mainform.MainMenu.Click("Orders|New order...")
-      
+  

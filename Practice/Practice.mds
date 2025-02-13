@@ -11,12 +11,17 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{263DB4F1-03BE-40EE-B80C-D78CAC457F75}" version="14">
 		<children>
-			<testItem name="Open Orders" key="{64C5E922-3F70-47C7-97F3-A1402C55FCC4}" group="False" parallel="False" enabled="True" load="False" testMoniker="{5975EF93-1A71-4D51-852C-878C33AEDCD5}test_one_open_existing_orders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Open Orders" key="{64C5E922-3F70-47C7-97F3-A1402C55FCC4}" group="False" parallel="False" enabled="False" load="False" testMoniker="{5975EF93-1A71-4D51-852C-878C33AEDCD5}test_one_open_existing_orders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Create New Orders" key="{67194D70-DDBF-4271-B300-4CF7A390BA23}" group="False" parallel="False" enabled="True" load="False" testMoniker="{10EE95F8-96B0-459D-B73C-F278C9E1E14A}test_one_create_orders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Create New Orders" key="{67194D70-DDBF-4271-B300-4CF7A390BA23}" group="False" parallel="False" enabled="False" load="False" testMoniker="{10EE95F8-96B0-459D-B73C-F278C9E1E14A}test_one_create_orders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="View Orders" key="{54814CDE-F68D-4C16-A84A-AE5115EB80EC}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FAE36B6A-E075-4180-9B44-BB558729808F}test_view_options" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
