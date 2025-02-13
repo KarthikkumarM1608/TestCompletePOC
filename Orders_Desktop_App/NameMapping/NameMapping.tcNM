@@ -330,6 +330,116 @@
 										<Value Value="Open" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{FB560547-6072-420A-ABE7-BDCEF19052B0}">
+										<Image FileName="-1659316695" Left="12" Top="129" Right="948" Bottom="587" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Explorer_Pane" Key="{7393E306-F0F0-4EAA-9071-57C8B5067723}">
+												<Image FileName="-1659316695" Left="12" Top="129" Right="948" Bottom="587" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Explorer_Pane" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="CtrlNotifySink" Key="{04554F8F-3D5C-420F-A8E4-389E48247CEF}">
+														<Image FileName="-1659316695" Left="252" Top="175" Right="948" Bottom="586" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ShellView" Key="{18557479-D618-4298-8812-16048A2B41A3}" ExtendedFind="True">
+																<Image FileName="-1659316695" Left="252" Top="175" Right="948" Bottom="586" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SHELLDLL_DefView" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="ShellView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Items_View" Key="{DA4BB1AB-A550-4759-B309-C9700BBD1351}">
+																		<Image FileName="-1659316695" Left="252" Top="175" Right="948" Bottom="586" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="UIItemsView" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="list" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Items_View" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="CtrlNotifySink" Key="{D90E36A9-65C2-40A9-BB64-D5084D30F1F7}">
+																				<Image FileName="-1659316695" Left="923" Top="175" Right="949" Bottom="561" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="CtrlNotifySink" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ScrollBar" Key="{359CD828-F489-4127-92E6-4060E5A1700A}">
+																						<Image FileName="-1659316695" Left="923" Top="175" Right="949" Bottom="561" />
+																						<TypeInfo Item0="{8CE27A0E-D5DB-4B8F-A20F-95EACD728B14}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="ScrollBar" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -387,6 +497,20 @@
 			<Child Name="ToolBar" Owner="{48AB1E16-2575-42EF-90FD-95035E320751}" />
 		</Child>
 		<Child Name="ToolBar" Owner="{48AB1E16-2575-42EF-90FD-95035E320751}" />
-		<Child Name="OpenDialog" Owner="{7D1D3451-CF33-42BF-9FAD-4692936D04BC}" />
+		<Child Name="OpenDialog" Owner="{7D1D3451-CF33-42BF-9FAD-4692936D04BC}">
+			<Child Name="DUIViewWndClassName" Owner="{FB560547-6072-420A-ABE7-BDCEF19052B0}">
+				<Child Name="Explorer_Pane" Owner="{7393E306-F0F0-4EAA-9071-57C8B5067723}">
+					<Child Name="CtrlNotifySink" Owner="{04554F8F-3D5C-420F-A8E4-389E48247CEF}">
+						<Child Name="ShellView" Owner="{18557479-D618-4298-8812-16048A2B41A3}">
+							<Child Name="Items_View" Owner="{DA4BB1AB-A550-4759-B309-C9700BBD1351}">
+								<Child Name="CtrlNotifySink" Owner="{D90E36A9-65C2-40A9-BB64-D5084D30F1F7}">
+									<Child Name="ScrollBar" Owner="{359CD828-F489-4127-92E6-4060E5A1700A}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
 	</LogicalNodes>
 </Root>

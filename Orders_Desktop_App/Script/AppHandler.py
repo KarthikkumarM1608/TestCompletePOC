@@ -10,12 +10,13 @@ class ApplicationManager:
     confirm_dialog = Aliases.CloseDlgConfirmation
     
     # based on the options(Yes/No/Cancel buttons) in the Close Confirmation pop-up being parsed,
-    if option == "Yes" and confirm_dialog.Exists:
-      confirm_dialog.btnYes.ClickButton()
-    elif option == "No" and confirm_dialog.Exists:
-      confirm_dialog.btnNo.ClickButton()
-    elif option == "Cancel"and confirm_dialog.Exists:
-      confirm_dialog.btnCancel.ClickButton()
+    if confirm_dialog.Exists:
+      if option == "Yes":
+        confirm_dialog.btnYes.ClickButton()
+      elif option == "No":
+        confirm_dialog.btnNo.ClickButton()
+      elif option == "Cancel":
+        confirm_dialog.btnCancel.ClickButton()
     
   def force_shutdown(self):
     # Use the os module to forcefully kill the application

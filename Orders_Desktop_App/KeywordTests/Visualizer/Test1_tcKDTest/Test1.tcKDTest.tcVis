@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{0A7F7D99-FB55-4FCC-AF35-EB6EC8FF8739}" />
+	<data key="{91A6E905-7829-4843-9419-E30E6686F7C6}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45700.5287268519" objectName="Aliases.MainForm.ToolBar" objectLeft="4" objectTop="69" objectRight="1924" objectBottom="111" clickPointX="54" clickPointY="87" imageFileName="tcvi202700515261520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45700.5287962963" objectName="Aliases.OpenDialog" objectLeft="641" objectTop="643" objectRight="773" objectBottom="682" clickPointX="475" clickPointY="673" imageFileName="tcvi202706093261525.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45700.5288194444" objectName="Aliases.MainForm.OrdersView" objectLeft="4" objectTop="111" objectRight="1924" objectBottom="980" clickPointX="673" clickPointY="348" imageFileName="tcvi202708812261526.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

@@ -20,10 +20,3 @@ class ApplicationManager:
   def force_shutdown(self):
     # Use the os module to forcefully kill the application
     os.system("taskkill /f /im Orders.exe")
-
-# Example usage
-#if __name__ == "__main__":
-#    app_manager = ApplicationManager()
-#    app_manager.force_shutdown()  # Force close any running instances
-#    app_manager.open_application()  # Launch a new instance
-

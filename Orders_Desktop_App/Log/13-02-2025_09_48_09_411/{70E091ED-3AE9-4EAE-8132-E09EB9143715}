@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="243"/>
+					<Prp name="datetime" type="D" value="45701.1793821296"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="273"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.Date"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="365"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.OrderForm_GroupData.Date&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Date&quot;))"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="date" type="D" value="45701.4085504167"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Application launched successfully."/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="date" type="D" value="45701.4085106134"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="339"/>
+					<Prp name="datetime" type="D" value="45701.1793746065"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="369"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.OrderForm_GroupData.Street"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="365"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '123street' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.OrderForm_GroupData.Street&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Street&quot;))"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="date" type="D" value="45701.408541875"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 1" type="S" value="{0D45F9B2-5868-4759-A021-3F3BAF957E80}"/>
+			<Prp name="unit 4" type="S" value="{A83D2C5A-20AF-4921-9BF8-16E45045B145}"/>
+			<Prp name="unit 2" type="S" value="{C17690FB-4EF1-4287-BD5F-4632BF4CF310}"/>
+			<Prp name="unit 0" type="S" value="{36B3D634-188F-4D1E-B789-9B9C77135D75}"/>
+			<Prp name="unit 3" type="S" value="{2017B3A2-A1A7-4C2F-AA13-AAE4199CA67B}"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="663"/>
+					<Prp name="datetime" type="D" value="45701.1793872685"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="699"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.ButtonOK"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="593"/>
+					<Prp name="object left" type="I" value="485"/>
+					<Prp name="click point y" type="I" value="681"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="539"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.ButtonOK&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;ButtonOK&quot;))"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="date" type="D" value="45701.4085547685"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="603"/>
+					<Prp name="datetime" type="D" value="45701.1793847917"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="633"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.ExpDate"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="365"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.OrderForm_GroupData.ExpDate&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;ExpDate&quot;))"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="date" type="D" value="45701.4085530787"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="555"/>
+					<Prp name="datetime" type="D" value="45701.1793806829"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="585"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.OrderForm_GroupData.CardNo"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="701"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '12343321212' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.OrderForm_GroupData.CardNo&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;CardNo&quot;))"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="date" type="D" value="45701.4085477546"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="St.Peter"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="date" type="D" value="45701.4085197801"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="291"/>
+					<Prp name="datetime" type="D" value="45701.1793731944"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="321"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.OrderForm_GroupData.Customer"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="701"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'St.Peter' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.OrderForm_GroupData.Customer&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Customer&quot;))"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="45701.4085402083"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="387"/>
+					<Prp name="datetime" type="D" value="45701.1793777431"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="417"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.OrderForm_GroupData.State"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="365"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'FL' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.OrderForm_GroupData.State&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;State&quot;))"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="date" type="D" value="45701.4085448727"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="75"/>
+					<Prp name="datetime" type="D" value="45701.1793609491"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="107"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.ProductNames"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="701"/>
+					<Prp name="object left" type="I" value="113"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The combo box item 'FamilyAlbum' was selected."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.OrderForm_GroupData.ProductNames&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;ProductNames&quot;))"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="date" type="D" value="45701.4085296181"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="183"/>
+					<Prp name="datetime" type="D" value="45701.1793702431"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="213"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.Total"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="689"/>
+					<Prp name="object left" type="I" value="581"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '7600' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.OrderForm_GroupData.Total&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;groupBox1&quot;).WinFormsObject(&quot;Total&quot;))"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="date" type="D" value="45701.4085373843"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Stopping test case: CreateNewOrder"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="date" type="D" value="45701.4085912847"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="126"/>
+					<Prp name="datetime" type="D" value="45701.1793648611"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="150"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.Quantity"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="170"/>
+					<Prp name="object left" type="I" value="116"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '50' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.OrderForm_GroupData.Quantity&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Quantity&quot;).WinFormsObject(&quot;UpDownEdit&quot;, &quot;&quot;))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="date" type="D" value="45701.4085321875"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Failed to close application at end of test case: The object does not exist."/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="date" type="D" value="45701.4085913657"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="435"/>
+					<Prp name="datetime" type="D" value="45701.1793715509"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="471"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.Visa"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="365"/>
+					<Prp name="object left" type="I" value="173"/>
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="269"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.OrderForm_GroupData.Visa&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Visa&quot;))"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="date" type="D" value="45701.4085389931"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\Public\Documents\TestComplete 15 Samples\Desktop\Orders\C#\bin\Release\Orders.exe&quot; started."/>
+			<Prp name="remarks" type="S" value="The process ID is 26128."/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="45701.4084817593"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="339"/>
+					<Prp name="datetime" type="D" value="45701.1793761227"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="369"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.OrderForm_GroupData.City"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="701"/>
+					<Prp name="object left" type="I" value="509"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'Orlando' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.OrderForm_GroupData.City&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;City&quot;))"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="date" type="D" value="45701.4085434722"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="387"/>
+					<Prp name="datetime" type="D" value="45701.1793792593"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="417"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object name" type="S" value="Aliases.Orders.OrderForm.OrderForm_GroupData.Zip"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="701"/>
+					<Prp name="object left" type="I" value="509"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '31223' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Orders.OrderForm.OrderForm_GroupData.Zip&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Zip&quot;))"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="date" type="D" value="45701.4085463773"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="123"/>
+					<Prp name="datetime" type="D" value="45701.1793668403"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="153"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.Priceperunit"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="473"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '200' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.OrderForm_GroupData.Priceperunit&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Price&quot;))"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="date" type="D" value="45701.4085339815"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="123"/>
+					<Prp name="datetime" type="D" value="45701.1793684606"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="153"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object name" type="S" value="Aliases.OrderForm_GroupData.Discount"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="701"/>
+					<Prp name="object left" type="I" value="581"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text '40%' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.OrderForm_GroupData.Discount&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;OrderForm&quot;).WinFormsObject(&quot;Group&quot;).WinFormsObject(&quot;Discount&quot;))"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="date" type="D" value="45701.4085357176"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Starting test case: CreateNewOrder"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="45701.4084558218"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45701.1793496875"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="612"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object name" type="S" value="Aliases.MainForm"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="912"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The menu item 'Orders|New order...' was clicked."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.MainForm.MainMenu&#xA;(Sys.Process(&quot;Orders&quot;).WinFormsObject(&quot;MainForm&quot;).MainMenu)"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="date" type="D" value="45701.4085175694"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

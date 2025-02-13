@@ -21,12 +21,9 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{32E46931-BEAD-40D6-91D0-00682EDBD154}"/>
+				<Prp name="activity" type="S" value="{0D45F9B2-5868-4759-A021-3F3BAF957E80}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{40ae4001-bca3-40b1-bf77-39af97010ecc}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
 				<Node name="{f83f8c8c-5593-4c90-8d46-beb722d1f65b}">
 					<Prp name="hash" type="I" value="1"/>
 				</Node>
@@ -210,6 +207,11 @@
 					<Node name="{0a7f7d99-fb55-4fcc-af35-eb6ec8ff8739}\testdata">
 						<Node name="expanding"/>
 					</Node>
+					<Node name="{91a6e905-7829-4843-9419-e30e6686f7c6}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000002400000078016366400046201384618019CA000000D40009"/>
+						</Node>
+					</Node>
 				</Node>
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
@@ -277,6 +279,11 @@
 					</Node>
 					<Node name="{36b3d634-188f-4d1e-b789-9b9c77135d75}">
 						<Node name="0">
+							<Node name="0">
+								<Prp name="bottom" type="I" value="9"/>
+								<Prp name="collapsed" type="B" value="0"/>
+								<Prp name="top" type="I" value="8"/>
+							</Node>
 							<Prp name="bottom" type="I" value="16"/>
 							<Prp name="collapsed" type="B" value="0"/>
 							<Prp name="top" type="I" value="2"/>
@@ -284,9 +291,9 @@
 						<Node name="1">
 							<Prp name="bottom" type="I" value="29"/>
 							<Prp name="collapsed" type="B" value="0"/>
-							<Prp name="top" type="I" value="18"/>
+							<Prp name="top" type="I" value="19"/>
 						</Node>
-						<Prp name="bottom" type="I" value="30"/>
+						<Prp name="bottom" type="I" value="31"/>
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
@@ -383,11 +390,18 @@
 			</Node>
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="testcomplete_orders_testing">
-					<Node name="web_practice">
-						<Node name="script"/>
+					<Node name="orders_desktop_app">
+						<Node name="keywordtests"/>
+						<Node name="script">
+							<Node name="utils"/>
+						</Node>
+						<Node name="testedapps"/>
 					</Node>
+					<Node name="web_practice"/>
 				</Node>
-				<Node name="testcomplete_orders_testing logs"/>
+				<Node name="testcomplete_orders_testing logs">
+					<Node name="orders_desktop_app logs"/>
+				</Node>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>

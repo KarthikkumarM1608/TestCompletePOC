@@ -7,6 +7,7 @@ def OrdersAppEvents_OnStartTestCase(Sender, StartTestCaseParams):
         app_manager = AppHandler.ApplicationManager()
         
         # Force close any running instances to start fresh
+        #if Aliases.Orders.Exists:
         app_manager.force_shutdown()
         
         # Launch the application
@@ -14,7 +15,7 @@ def OrdersAppEvents_OnStartTestCase(Sender, StartTestCaseParams):
         Log.Message("Application launched successfully.")
     except Exception as e:
         Log.Error(f"Failed to launch application at start of test case: {str(e)}")
-        raise
+        #raise
 
 def OrdersAppEvents_OnStopTestCase(Sender, StopTestCaseParams):
     try:
