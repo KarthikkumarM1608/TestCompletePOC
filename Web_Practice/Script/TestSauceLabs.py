@@ -1,66 +1,55 @@
-﻿def test_orders():
+﻿import LoginPage
+import ProductsPage
+import ShoppingCartPage
+import CheckOutOne
+import CheckOutTwo
+import OrderConfirmationPage
+
+def test_one_sauce():
+  
+  # Implementing Data Driven Test
   DDT.CSVDriver(Project.Variables.csv_file_path)
-  Log. Message("SauceLabs Order Submission")
+
+  # Login with the username and password
+  login = LoginPage.Login()
+  login.login(Project.Variables.Username, Project.Variables.Password)
+  
+  Log.Message("SauceLabs Order submission using DDT")
+  
   while not DDT.CurrentDriver.EOF():
     
-    data = DDT.CurrentDriver.Value
-  
-    Log.AppendFolder(data["firstname"])
+    shopping_data = DDT.CurrentDriver.Value
+    Log.AppendFolder(shopping_data["firstname"])
     
-    Browsers.Item[btEdge].Navigate("https://www.saucedemo.com/v1/index.html")
-    browser = Aliases.browser
-    browser.BrowserWindow.Maximize()
+    # Search for the Products and adding to Cart
+    products = ProductsPage.ProductsPage()
+    products.find_product(shopping_data["itemname"])
     
-    page = browser.LoginPage
-    textbox = page.UserName
-    textbox.SetText(Project.Variables.Username)
-    passwordBox = page.Password
-    passwordBox.SetText(Project.Variables.Password)
-    page.LoginButton.ClickButton()
-  
-  
-    page = browser.ProductsPage
-    page.Wait()
+    # clicking on Cart button in Products page
+    products.click_cart_icon()
     
-    products = page.findElements("//div[@class='inventory_item_name']")
-        
-    for product in products:
-      item = data["itemname"]
-      
-      Log.Message(item)
-      
-      if product.innerText == item:
-      
-        product.findElement("../../../div[3]/button").ClickButton()
-        break
+    # clicking on Checkout button in Shopping cart page 
+    cart = ShoppingCartPage.ShoppingCart()
+    cart.click_checkout_link()
     
-    page.CartIcon.Click()
+    # Entering the Firstname, Lastname and Zip code in CheckoutOne page
+    checkout_one = CheckOutOne.CheckOutOne()
+    checkout_one.fill_your_info(shopping_data["firstname"], shopping_data["lastname"], shopping_data["zip"])
     
-    page = browser.ShoppingCartPage
-    page.Wait()
+    checkout_one.click_continue()
     
-    page.linkCheckout.Click()
+    # Clicking Finish button in CheckoutTwo page
+    checkout_two = CheckOutTwo.CheckOutTwo()
+    checkout_two.click_finish()
     
-    page = browser.CheckOutOne
-    page.Wait()
+    # Validating the checkpoint in OrderConfirmation page
+    confirmation = OrderConfirmationPage.OrderConfirmationPage()
+    confirmation.validate_checkpoint()
     
-    textbox = page.textboxFirstName
-    textbox.SetText(data["firstname"])
-    textbox = page.textboxLastName
-    textbox.SetText(data["lastname"])
-    textbox = page.textboxPostalCode
-    textbox.SetText(data["zip"])
-    page.submitbuttonContinue.ClickButton()
-    
-    page = browser.CheckOutTwo
-    page.Wait()
-    page.linkFinish.Click()
-    
-    page = browser.OrderConfirmationPage
-    page.Wait()
-    aqObject.CheckProperty(Aliases.browser.OrderConfirmationPage.FindElement("//h2[.='THANK YOU FOR YOUR ORDER']"), "contentText", cmpEqual, "THANK YOU FOR YOUR ORDER")
+    confirmation.navigate_products_page()
     
     Log.PopLogFolder()
     
     DDT.CurrentDriver.Next()
     
+      
