@@ -3,7 +3,18 @@
 	<children>
 		<folder name="Tests">
 			<child name="TestSauceLabs" key="{26BD2F38-6798-420C-8FDE-47A874084A77}" path="TestSauceLabs.py" />
+			<child name="TestOne" key="{55FEB5FB-DD8C-4008-AFF0-E061BA886F8F}" path="TestOne.py" />
 		</folder>
-		<child name="sample" key="{87792866-5D29-44A7-83E1-136D785BDB3E}" path="sample.py" />
+		<folder name="POM">
+			<child name="LoginPage" key="{4F63FB0A-3B4B-4C64-B230-3C8CB6EA7999}" path="LoginPage.py" />
+			<child name="ProductsPage" key="{3EFC6B61-9FD5-4A32-BAEA-7453682CE3C0}" path="ProductsPage.py" />
+			<child name="ShoppingCartPage" key="{7AF0F112-80D0-4128-AB6D-C0A2BEF2AD8B}" path="ShoppingCartPage.py" />
+			<child name="CheckOutOne" key="{9A491876-4732-4990-8B8B-759AA70C1FA7}" path="CheckOutOne.py" />
+			<child name="CheckOutTwo" key="{BC48E9A1-EFDC-4B75-B654-B0A71BA2483C}" path="CheckOutTwo.py" />
+			<child name="OrderConfirmationPage" key="{4AFF5719-2E7F-4AD2-BDDE-F399A9A8FD02}" path="OrderConfirmationPage.py" />
+		</folder>
+		<folder name="Utils">
+			<child name="Eventhandler" key="{A7632ECD-7008-482A-AFE8-79D5AB1C3FE4}" path="Eventhandler.py" />
+		</folder>
 	</children>
 </Root>

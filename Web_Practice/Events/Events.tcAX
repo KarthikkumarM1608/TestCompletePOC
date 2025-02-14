@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{24CEF306-B2F7-4E0D-A7C9-D1250707B78E}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{CBEBC7EF-6783-496B-9962-45C40A959D4C}">
+			<config nodeName="WebEvents" lastOpenedTLB="" generatedCLSID="{4E24F2F7-C7AB-43E4-BC72-2A73FA7C11F1}" generatedTLBKey="{49A6B8E9-AAF8-4398-ABD2-1593A51673F1}" generatedEventsKey="{6355BD0A-31D4-45BD-B5C9-D494F604988C}" generatedTLBDesc="TestComplete WebEvents Control - 14-02-2025 11:04:43">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743810" infoControlName="Test Engine Events" infoEventName="OnStartTestCase" infoEventRealName="OnStartTestCase" infoDescription="Occurs when TestComplete starts running a test case." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743811" infoControlName="Test Engine Events" infoEventName="OnStopTestCase" infoEventRealName="OnStopTestCase" infoDescription="Occurs when TestComplete stops running a test case or when the execution of a test case is over." />
+				<handlerInfo handlerName="WebEvents_OnStopTestCase" handlerMoniker="{A7632ECD-7008-482A-AFE8-79D5AB1C3FE4}WebEvents_OnStopTestCase" handlerEventName="OnStopTestCase" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743811" />
+				<handlerInfo handlerName="WebEvents_OnStartTestCase" handlerMoniker="{A7632ECD-7008-482A-AFE8-79D5AB1C3FE4}WebEvents_OnStartTestCase" handlerEventName="OnStartTestCase" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743810" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

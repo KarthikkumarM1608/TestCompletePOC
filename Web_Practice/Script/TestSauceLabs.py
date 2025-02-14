@@ -1,14 +1,16 @@
 ﻿def test_orders():
   DDT.CSVDriver(Project.Variables.csv_file_path)
-  
+  Log. Message("SauceLabs Order Submission")
   while not DDT.CurrentDriver.EOF():
     
     data = DDT.CurrentDriver.Value
   
     Log.AppendFolder(data["firstname"])
+    
     Browsers.Item[btEdge].Navigate("https://www.saucedemo.com/v1/index.html")
     browser = Aliases.browser
     browser.BrowserWindow.Maximize()
+    
     page = browser.LoginPage
     textbox = page.UserName
     textbox.SetText(Project.Variables.Username)
@@ -33,7 +35,7 @@
         break
     
     page.CartIcon.Click()
-      
+    
     page = browser.ShoppingCartPage
     page.Wait()
     
@@ -57,6 +59,7 @@
     page = browser.OrderConfirmationPage
     page.Wait()
     aqObject.CheckProperty(Aliases.browser.OrderConfirmationPage.FindElement("//h2[.='THANK YOU FOR YOUR ORDER']"), "contentText", cmpEqual, "THANK YOU FOR YOUR ORDER")
+    
     Log.PopLogFolder()
     
     DDT.CurrentDriver.Next()

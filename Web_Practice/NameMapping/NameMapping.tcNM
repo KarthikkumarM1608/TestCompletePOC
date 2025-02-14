@@ -182,6 +182,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="select" Key="{63704A9A-DB15-4DE3-BDC7-1890B231B55C}">
+										<Image FileName="-1496231915" Left="1700" Top="313" Right="1873" Bottom="366" />
+										<TypeInfo Item0="{53E81B88-52AA-41D9-983D-8CDD2FE26D8B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;product_sort_container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_filter_container&apos;]/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="ShoppingCartPage" Key="{1856B2E0-774D-41F2-AB89-5630C25F0ACD}">
@@ -328,15 +343,16 @@
 				<Child Name="buttonAddToCart" Owner="{E992CB3C-6D05-4094-800A-D2ED692B2369}" />
 				<Child Name="link1" Owner="{9AD833C8-C6E1-488D-8DCF-F3AC23A0F908}" />
 				<Child Name="CartIcon" Owner="{18859866-6E1E-406B-AEAA-EF426B7C5234}" />
+				<Child Name="sort" Owner="{63704A9A-DB15-4DE3-BDC7-1890B231B55C}" />
 			</Child>
 			<Child Name="ShoppingCartPage" Owner="{1856B2E0-774D-41F2-AB89-5630C25F0ACD}">
 				<Child Name="linkCheckout" Owner="{8F956727-9072-4482-98F8-5D40FDEBCC4C}" />
 			</Child>
 			<Child Name="CheckOutOne" Owner="{40EDEB1F-1F98-4126-A7A3-6D00C80F7539}">
-				<Child Name="textboxFirstName" Owner="{458AEF7F-F641-4563-8CCD-CF8ED613EAB6}" />
-				<Child Name="textboxLastName" Owner="{6EEDDA6B-9FCB-4994-9EF9-1C06A132B942}" />
-				<Child Name="textboxPostalCode" Owner="{044CD1BA-9F8A-4988-8B55-2C2807F8943B}" />
-				<Child Name="submitbuttonContinue" Owner="{D766ED96-8CA0-4494-9EA1-CD845F43CD7F}" />
+				<Child Name="FirstName" Owner="{458AEF7F-F641-4563-8CCD-CF8ED613EAB6}" />
+				<Child Name="LastName" Owner="{6EEDDA6B-9FCB-4994-9EF9-1C06A132B942}" />
+				<Child Name="PostalCode" Owner="{044CD1BA-9F8A-4988-8B55-2C2807F8943B}" />
+				<Child Name="ContinueButton" Owner="{D766ED96-8CA0-4494-9EA1-CD845F43CD7F}" />
 			</Child>
 			<Child Name="CheckOutTwo" Owner="{CF31364D-7414-4AC6-BA15-8EE9AF8FF259}">
 				<Child Name="linkFinish" Owner="{D3BBE6FD-46BB-4457-980D-57D40E560253}" />
