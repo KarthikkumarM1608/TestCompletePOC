@@ -24,6 +24,9 @@
 				<Variable Name="Username" Type="String" Local="False">
 					<DefValue StrValue="standard_user" />
 				</Variable>
+				<Variable Name="csv_file_path" Type="String" Local="False">
+					<DefValue StrValue="C:\\Users\\karthikkumar.m\\OneDrive - MKS VISION PVT LTD\\Desktop\\web_orders.csv" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

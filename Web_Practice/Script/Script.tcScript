@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{26BD2F38-6798-420C-8FDE-47A874084A77}" path="Unit1.py" />
+		<folder name="Tests">
+			<child name="TestSauceLabs" key="{26BD2F38-6798-420C-8FDE-47A874084A77}" path="TestSauceLabs.py" />
+		</folder>
+		<child name="sample" key="{87792866-5D29-44A7-83E1-136D785BDB3E}" path="sample.py" />
 	</children>
 </Root>

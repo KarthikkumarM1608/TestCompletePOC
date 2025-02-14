@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{26BD2F38-6798-420C-8FDE-47A874084A77}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45701.4388078704" objectName="Aliases.browser.pageSwagLabs2.textboxUserName" objectLeft="409" objectTop="413" objectRight="927" objectBottom="475" clickPointX="-1" clickPointY="-1" imageFileName="tcvi281326234241201.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45701.4388657407" objectName="Aliases.browser.pageSwagLabs2.passwordboxPassword" objectLeft="409" objectTop="512" objectRight="927" objectBottom="574" clickPointX="-1" clickPointY="-1" imageFileName="tcvi2813313432412021.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45701.4388773148" objectName="Aliases.browser.pageSwagLabs2.passwordboxPassword" objectLeft="409" objectTop="512" objectRight="927" objectBottom="574" clickPointX="-1" clickPointY="-1" imageFileName="tcvi2813313432412022.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>
