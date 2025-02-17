@@ -1,4 +1,6 @@
-﻿import LoginPage
+﻿import Eventhandler
+import CsvWriter
+import LoginPage
 import ProductsPage
 import ShoppingCartPage
 import CheckOutOne
@@ -15,6 +17,8 @@ def test_one_sauce():
   login.login(Project.Variables.Username, Project.Variables.Password)
   
   Log.Message("SauceLabs Order submission using DDT")
+  
+  row_counter = 0
   
   while not DDT.CurrentDriver.EOF():
     
@@ -40,7 +44,18 @@ def test_one_sauce():
     
     # Clicking Finish button in CheckoutTwo page
     checkout_two = CheckOutTwo.CheckOutTwo()
+    payment_info = checkout_two.extract_payment_info()
+    shipping_info = checkout_two.extract_shipping_info()
+    
     checkout_two.click_finish()
+    
+    csv_file_path = Project.Variables.csv_file_path
+    
+    # Update the details in the CSV file
+    CsvWriter.update_csv_data(csv_file_path, row_counter, payment_info, shipping_info)
+    
+    # Writing the details to Excel,
+    #CsvWriter.write_csv(row_counter, payment_info, shipping_info)
     
     # Validating the checkpoint in OrderConfirmation page
     confirmation = OrderConfirmationPage.OrderConfirmationPage()
@@ -51,5 +66,6 @@ def test_one_sauce():
     Log.PopLogFolder()
     
     DDT.CurrentDriver.Next()
+    row_counter += 1
     
       

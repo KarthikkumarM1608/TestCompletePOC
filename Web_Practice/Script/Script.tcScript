@@ -14,6 +14,7 @@
 		</folder>
 		<folder name="Utils">
 			<child name="Eventhandler" key="{A7632ECD-7008-482A-AFE8-79D5AB1C3FE4}" path="Eventhandler.py" />
+			<child name="CsvWriter" key="{FF7D918A-9A7A-4C66-BB88-36C0299F598D}" path="CsvWriter.py" />
 		</folder>
 	</children>
 </Root>
