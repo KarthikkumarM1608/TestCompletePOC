@@ -2,8 +2,7 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<folder name="Tests">
-			<child name="TestSauceLabs" key="{26BD2F38-6798-420C-8FDE-47A874084A77}" path="TestSauceLabs.py" />
-			<child name="TestOne" key="{55FEB5FB-DD8C-4008-AFF0-E061BA886F8F}" path="TestOne.py" />
+			<child name="TestSauceLabs" key="{55FEB5FB-DD8C-4008-AFF0-E061BA886F8F}" path="TestSauceLabs.py" />
 		</folder>
 		<folder name="POM">
 			<child name="LoginPage" key="{4F63FB0A-3B4B-4C64-B230-3C8CB6EA7999}" path="LoginPage.py" />
