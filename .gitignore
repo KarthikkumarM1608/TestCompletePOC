@@ -37,3 +37,13 @@ env/
 Log/
 Logs/
 *.log
+
+#Additional files
+glob
+*.js.bak
+*.js.tcVis
+*/Log/*
+*.sj.bak
+*.tcLS
+*.tcCfgExtender
+*.tcLogs
