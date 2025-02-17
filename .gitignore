@@ -7,6 +7,9 @@
 # Ignore the project suite backup file
 *.bak
 
+# Ignore the Script backup file
+*.py.bak
+
 # Ignore the project suite layout file
 *.tcProjectSuite
 
@@ -29,3 +32,8 @@ __pycache__/
 # Ignore virtual environments
 venv/
 env/
+
+# Ignore Log files and folders
+Log/
+Logs/
+*.log

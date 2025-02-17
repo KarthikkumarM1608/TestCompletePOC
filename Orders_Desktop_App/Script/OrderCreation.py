@@ -1,6 +1,9 @@
 ﻿import datetime
 
 class CreateOrders:
+  def __init__(self):
+    self.group_box = Aliases.OrderForm_GroupData
+    
   def order_creation(self, data):
     group_box = Aliases.OrderForm_GroupData
     
@@ -40,3 +43,14 @@ class CreateOrders:
     exp_date_picker = group_box.ExpDate
     exp_date_picker.wDate = data["expirationdate"]
     exp_date_picker.Keys("[Tab]")
+
+  def change_card_type(self, card_type):
+    
+    if card_type == "Visa":
+      self.group_box.Visa.ClickButton()
+    elif card_type == "MasterCard":
+      self.group_box.MasterCard.ClickButton()
+    elif card_type == "AmericanExpress":
+      self.group_box.AmericanExpress.ClickButton()
+  
+  

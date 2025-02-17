@@ -21,9 +21,12 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{40AE4001-BCA3-40B1-BF77-39AF97010ECC}"/>
+				<Prp name="activity" type="S" value="{FCB0E058-0AF4-419A-819B-28E2E56603EA}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{40ae4001-bca3-40b1-bf77-39af97010ecc}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
 				<Node name="{56cdbfe3-be30-4b37-966a-2a639e3c4f81}">
 					<Prp name="hash" type="I" value="1"/>
 				</Node>
@@ -36,7 +39,7 @@
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}">
-								<Prp name="key" type="S" value="{2D447D7F-8635-4D3A-86A1-1BBF9A940A3C}"/>
+								<Prp name="key" type="S" value="{1A03C63B-DE39-46C8-9296-636FBB5A94DE}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{AFA7C1F5-AA45-415E-A139-E3DDC317A428}"/>
 							<Prp name="focused" type="S" value="{2D447D7F-8635-4D3A-86A1-1BBF9A940A3C}"/>
@@ -630,8 +633,14 @@
 							<Node name="tests"/>
 						</Node>
 					</Node>
+					<Node name="web_practice">
+						<Node name="script">
+							<Node name="pom"/>
+						</Node>
+					</Node>
 				</Node>
 				<Node name="testcomplete_orders_testing logs">
+					<Node name="orders_desktop_app logs"/>
 					<Node name="web_practice logs"/>
 				</Node>
 			</Node>

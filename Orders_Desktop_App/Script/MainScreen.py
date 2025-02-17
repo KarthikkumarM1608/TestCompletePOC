@@ -13,3 +13,18 @@
       return order_form
     else:
       Log.Error("Error in Mainform identification")
+  
+  def toolbar_open_existing_order(self, filepath):
+    #Clicking Open button in the Toolbar
+    toolbar = Aliases.ToolBar
+    toolbar.ClickItem(1, False)
+  
+    Aliases.OpenDialog.OpenFile(filepath)
+  
+  def toolbar_edit_order(self):
+    listView = Aliases.MainForm
+    listView.OrdersView.ClickItem(1)
+    #"Clare Jefferson", "FamilyAlbum")  
+    toolbar = Aliases.ToolBar
+    toolbar.ClickItem(5, False)
+    

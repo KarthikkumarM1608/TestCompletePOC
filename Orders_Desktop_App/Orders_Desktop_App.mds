@@ -11,12 +11,17 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{B31387D1-586B-4EA1-B089-AF278A8848A6}" version="14">
 		<children>
-			<testItem name="CreateNewOrder" key="{BFD80FAA-222D-41E1-A509-18CF2CCF4950}" group="False" parallel="False" enabled="True" load="False" testMoniker="{2017B3A2-A1A7-4C2F-AA13-AAE4199CA67B}test_one_create_orders_mainmenu" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="CreateNewOrder" key="{BFD80FAA-222D-41E1-A509-18CF2CCF4950}" group="False" parallel="False" enabled="False" load="False" testMoniker="{2017B3A2-A1A7-4C2F-AA13-AAE4199CA67B}test_one_create_orders_mainmenu" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="OpenExistingOrder" key="{01143F3C-2EBD-46D3-921B-0BF13CED10E8}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FCB0E058-0AF4-419A-819B-28E2E56603EA}test_one_open_existing_orders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="OpenExistingOrder" key="{01143F3C-2EBD-46D3-921B-0BF13CED10E8}" group="False" parallel="False" enabled="False" load="False" testMoniker="{FCB0E058-0AF4-419A-819B-28E2E56603EA}test_one_open_existing_orders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="EditExistingOrder" key="{3760FE3D-5B8C-4C32-89C3-86AE6E26CA5B}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FCB0E058-0AF4-419A-819B-28E2E56603EA}test_edit_existing_order" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
