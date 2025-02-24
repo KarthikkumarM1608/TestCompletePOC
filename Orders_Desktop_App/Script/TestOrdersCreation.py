@@ -27,8 +27,22 @@ def test_one_create_orders_mainmenu():
     
     # Calling Create Orders class for creating the Orders
     create = OrderCreation.CreateOrders()
-    create.order_creation(data)
-  
+    #create.order_creation(data)
+    create.get_productName(data)
+    create.get_qty(data)
+    create.get_priceperunit(data)
+    create.get_discount(data)
+    create.get_total(data)
+    create.get_card(data)
+    create.get_customer(data)
+    create.get_street(data)
+    create.get_city(data)
+    create.get_state(data)
+    create.get_zip(data)
+    create.get_card_number(data)
+    create.get_currentdate
+    create.get_expirationdate(data)
+           
     # clicking OK button in the Order Creation pop-up
     order_form.ButtonOK.ClickButton()
     
